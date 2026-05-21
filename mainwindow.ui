@@ -1,0 +1,898 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>451</width>
+    <height>631</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>0</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>451</width>
+    <height>631</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">MainWindow{
+background-color: rgb(31, 31, 31);
+
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="buttzero">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>550</y>
+      <width>211</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>16</pointsize>
+      <italic>false</italic>
+      <fontweight>Light</fontweight>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    font-size: 18pt ;
+	font: 700 16pt &quot;Arial&quot;;
+    font-weight: 300; 
+    border: 2px solid   ;
+    border-radius :15px;
+    background-color:rgb(42, 42, 42);
+    color:#edece1;
+} </string>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="buttenter">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>410</y>
+      <width>81</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>16</pointsize>
+      <italic>false</italic>
+      <fontweight>Light</fontweight>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    font-size: 18pt ;
+	font: 700 16pt &quot;Arial&quot;;
+    font-weight: 300; 
+    border: 2px solid   ;
+    border-radius :15px;
+    background-color:rgb(42, 42, 42);
+    color:#edece1;
+} </string>
+    </property>
+    <property name="text">
+     <string>Enter </string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ansbutt">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>550</y>
+      <width>81</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>16</pointsize>
+      <italic>false</italic>
+      <fontweight>Light</fontweight>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    font-size: 18pt ;
+	font: 700 16pt &quot;Arial&quot;;
+    font-weight: 300; 
+    border: 2px solid   ;
+    border-radius :15px;
+    background-color:rgb(42, 42, 42);
+    color:#edece1;
+} </string>
+    </property>
+    <property name="text">
+     <string>Ans</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="butt3">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>480</y>
+      <width>101</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>16</pointsize>
+      <italic>false</italic>
+      <fontweight>Light</fontweight>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    font-size: 18pt ;
+	font: 700 16pt &quot;Arial&quot;;
+    font-weight: 300; 
+    border: 2px solid   ;
+    border-radius :15px;
+    background-color:rgb(42, 42, 42);
+    color:#edece1;
+} </string>
+    </property>
+    <property name="text">
+     <string>3</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="buttfrac">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>550</y>
+      <width>101</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>16</pointsize>
+      <italic>false</italic>
+      <fontweight>Light</fontweight>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    font-size: 18pt ;
+	font: 700 16pt &quot;Arial&quot;;
+    font-weight: 300; 
+    border: 2px solid   ;
+    border-radius :15px;
+    background-color:rgb(42, 42, 42);
+    color:#edece1;
+} </string>
+    </property>
+    <property name="text">
+     <string>.</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="butt2">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>480</y>
+      <width>101</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>16</pointsize>
+      <italic>false</italic>
+      <fontweight>Light</fontweight>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    font-size: 18pt ;
+	font: 700 16pt &quot;Arial&quot;;
+    font-weight: 300; 
+    border: 2px solid   ;
+    border-radius :15px;
+    background-color:rgb(42, 42, 42);
+    color:#edece1;
+} </string>
+    </property>
+    <property name="text">
+     <string>2</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="butt1">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>480</y>
+      <width>101</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>16</pointsize>
+      <italic>false</italic>
+      <fontweight>Light</fontweight>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    font-size: 18pt ;
+	font: 700 16pt &quot;Arial&quot;;
+    font-weight: 300; 
+    border: 2px solid   ;
+    border-radius :15px;
+    background-color:rgb(42, 42, 42);
+    color:#edece1;
+} </string>
+    </property>
+    <property name="text">
+     <string>1</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="butt6">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>410</y>
+      <width>101</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>16</pointsize>
+      <italic>false</italic>
+      <fontweight>Light</fontweight>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    font-size: 18pt ;
+	font: 700 16pt &quot;Arial&quot;;
+    font-weight: 300; 
+    border: 2px solid   ;
+    border-radius :15px;
+    background-color:rgb(42, 42, 42);
+    color:#edece1;
+} </string>
+    </property>
+    <property name="text">
+     <string>6</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="butt4">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>410</y>
+      <width>101</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>16</pointsize>
+      <italic>false</italic>
+      <fontweight>Light</fontweight>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    font-size: 18pt ;
+	font: 700 16pt &quot;Arial&quot;;
+    font-weight: 300; 
+    border: 2px solid   ;
+    border-radius :15px;
+    background-color:rgb(42, 42, 42);
+    color:#edece1;
+} </string>
+    </property>
+    <property name="text">
+     <string>4</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="butt9">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>340</y>
+      <width>101</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>16</pointsize>
+      <italic>false</italic>
+      <fontweight>Light</fontweight>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    font-size: 18pt ;
+	font: 700 16pt &quot;Arial&quot;;
+    font-weight: 300; 
+    border: 2px solid   ;
+    border-radius :15px;
+    background-color:rgb(42, 42, 42);
+    color:#edece1;
+} </string>
+    </property>
+    <property name="text">
+     <string>9</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="butt5">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>410</y>
+      <width>101</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>16</pointsize>
+      <italic>false</italic>
+      <fontweight>Light</fontweight>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    font-size: 18pt ;
+	font: 700 16pt &quot;Arial&quot;;
+    font-weight: 300; 
+    border: 2px solid   ;
+    border-radius :15px;
+    background-color:rgb(42, 42, 42);
+    color:#edece1;
+} </string>
+    </property>
+    <property name="text">
+     <string>5</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="butt7">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>340</y>
+      <width>101</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>16</pointsize>
+      <italic>false</italic>
+      <fontweight>Light</fontweight>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    font-size: 18pt ;
+	font: 700 16pt &quot;Arial&quot;;
+    font-weight: 300; 
+    border: 2px solid   ;
+    border-radius :15px;
+    background-color:rgb(42, 42, 42);
+    color:#edece1;
+} </string>
+    </property>
+    <property name="text">
+     <string>7</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="butt8">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>340</y>
+      <width>101</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>16</pointsize>
+      <italic>false</italic>
+      <fontweight>Light</fontweight>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    font-size: 18pt ;
+	font: 700 16pt &quot;Arial&quot;;
+    font-weight: 300; 
+    border: 2px solid   ;
+    border-radius :15px;
+    background-color:rgb(42, 42, 42);
+    color:#edece1;
+} </string>
+    </property>
+    <property name="text">
+     <string>8</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="buttminus">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>270</y>
+      <width>101</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>16</pointsize>
+      <italic>false</italic>
+      <fontweight>Light</fontweight>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    font-size: 18pt ;
+	font: 700 16pt &quot;Arial&quot;;
+    font-weight: 300; 
+    border: 2px solid   ;
+    border-radius :15px;
+    background-color:rgb(42, 42, 42);
+    color:#edece1;
+} </string>
+    </property>
+    <property name="text">
+     <string>-</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="buttstar">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>270</y>
+      <width>101</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>16</pointsize>
+      <italic>false</italic>
+      <fontweight>Light</fontweight>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    font-size: 18pt ;
+	font: 700 16pt &quot;Arial&quot;;
+    font-weight: 300; 
+    border: 2px solid   ;
+    border-radius :15px;
+    background-color:rgb(42, 42, 42);
+    color:#edece1;
+} </string>
+    </property>
+    <property name="text">
+     <string>*</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="buttslash">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>200</y>
+      <width>101</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>16</pointsize>
+      <italic>false</italic>
+      <fontweight>Light</fontweight>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    font-size: 18pt ;
+	font: 700 16pt &quot;Arial&quot;;
+    font-weight: 300; 
+    border: 2px solid   ;
+    border-radius :15px;
+    background-color:rgb(42, 42, 42);
+    color:#edece1;
+} </string>
+    </property>
+    <property name="text">
+     <string>/</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="buttsquar">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>200</y>
+      <width>101</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>16</pointsize>
+      <italic>false</italic>
+      <fontweight>Light</fontweight>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    font-size: 18pt ;
+	font: 700 16pt &quot;Arial&quot;;
+    font-weight: 300; 
+    border: 2px solid   ;
+    border-radius :15px;
+    background-color:rgb(42, 42, 42);
+    color:#edece1;
+} </string>
+    </property>
+    <property name="text">
+     <string>x²</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="butt1overx">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>200</y>
+      <width>101</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>16</pointsize>
+      <italic>false</italic>
+      <fontweight>Light</fontweight>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    font-size: 18pt ;
+	font: 700 16pt &quot;Arial&quot;;
+    font-weight: 300; 
+    border: 2px solid   ;
+    border-radius :15px;
+    background-color:rgb(42, 42, 42);
+    color:#edece1;
+} </string>
+    </property>
+    <property name="text">
+     <string>1/x</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="buttroot">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>130</y>
+      <width>81</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>16</pointsize>
+      <italic>false</italic>
+      <fontweight>Light</fontweight>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    font-size: 25pt ;
+	font: 700 16pt &quot;Arial&quot;;
+    font-weight: 300; 
+    border: 2px solid   ;
+    border-radius :15px;
+    background-color:rgb(42, 42, 42);
+    color:#edece1;
+} </string>
+    </property>
+    <property name="text">
+     <string>√</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="buttback">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>340</y>
+      <width>81</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>16</pointsize>
+      <italic>false</italic>
+      <fontweight>Light</fontweight>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    font-size: 18pt ;
+	font: 700 16pt &quot;Arial&quot;;
+    font-weight: 300; 
+    border: 2px solid   ;
+    border-radius :15px;
+    background-color:rgb(42, 42, 42);
+    color:#edece1;
+} </string>
+    </property>
+    <property name="text">
+     <string>Back</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="buttpown">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>200</y>
+      <width>81</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>16</pointsize>
+      <italic>false</italic>
+      <fontweight>Light</fontweight>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    font-size: 18pt ;
+	font: 700 16pt &quot;Arial&quot;;
+    font-weight: 300; 
+    border: 2px solid   ;
+    border-radius :15px;
+    background-color:rgb(42, 42, 42);
+    color:#edece1;
+} </string>
+    </property>
+    <property name="text">
+     <string>xⁿ</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="sinbutt">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>130</y>
+      <width>101</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>16</pointsize>
+      <italic>false</italic>
+      <fontweight>Light</fontweight>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    font-size: 18pt ;
+	font: 700 16pt &quot;Arial&quot;;
+    font-weight: 300; 
+    border: 2px solid   ;
+    border-radius :15px;
+    background-color:rgb(42, 42, 42);
+    color:#edece1;
+} </string>
+    </property>
+    <property name="text">
+     <string>Sin(θ)</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="delbuttn">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>270</y>
+      <width>81</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>16</pointsize>
+      <italic>false</italic>
+      <fontweight>Light</fontweight>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    font-size: 18pt ;
+	font: 700 16pt &quot;Arial&quot;;
+    font-weight: 300; 
+    border: 2px solid   ;
+    border-radius :15px;
+    background-color:rgb(42, 42, 42);
+    color:#edece1;
+} </string>
+    </property>
+    <property name="text">
+     <string>del All</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="cosbutt">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>130</y>
+      <width>101</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>16</pointsize>
+      <italic>false</italic>
+      <fontweight>Light</fontweight>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    font-size: 18pt ;
+	font: 700 16pt &quot;Arial&quot;;
+    font-weight: 300; 
+    border: 2px solid   ;
+    border-radius :15px;
+    background-color:rgb(42, 42, 42);
+    color:#edece1;
+} </string>
+    </property>
+    <property name="text">
+     <string>Cos(θ)</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="tanbutt">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>130</y>
+      <width>101</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>16</pointsize>
+      <italic>false</italic>
+      <fontweight>Light</fontweight>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    font-size: 18pt ;
+	font: 700 16pt &quot;Arial&quot;;
+    font-weight: 300; 
+    border: 2px solid   ;
+    border-radius :15px;
+    background-color:rgb(42, 42, 42);
+    color:#edece1;
+} </string>
+    </property>
+    <property name="text">
+     <string>Tan(θ)</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="userface">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>30</y>
+      <width>411</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+    font-size: 18pt ;
+	font:  24pt  ;
+	font: 700 24pt &quot;Arial&quot;;
+    font-weight: 300;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #060608;
+    border-radius: 15px;
+    background-color: #263b20;
+    color: #121517 ;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="buttplus">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>270</y>
+      <width>101</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>16</pointsize>
+      <italic>false</italic>
+      <fontweight>Light</fontweight>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    font-size: 18pt ;
+	font: 700 16pt &quot;Arial&quot;;
+    font-weight: 300; 
+    border: 2px solid   ;
+    border-radius :15px;
+    background-color:rgb(42, 42, 42);
+    color:#edece1;
+} </string>
+    </property>
+    <property name="text">
+     <string>+</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
